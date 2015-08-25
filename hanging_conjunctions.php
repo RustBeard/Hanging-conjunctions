@@ -46,6 +46,8 @@ for ($i = 0; $i < count($replacement); $i++) {
     $content = preg_replace($pattern[$i], $replacement[$i], $content);
 }
 
+print $content;
+
 ?>
 
 </body>
